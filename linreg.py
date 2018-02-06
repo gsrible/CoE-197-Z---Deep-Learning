@@ -33,7 +33,7 @@ ave_abs_err = accuracy + 1  # initialize to any value
 prev_ave_abs_err = ave_abs_err  # initialize to any value
 
 theta = rand_max * np.random.random(4)
-prev_theta = 2 * theta  # initialize such that not equal to theta
+prev_theta = 2 * theta + 1  # initialize such that not equal to theta
 prev_prev_theta = 1000 * prev_theta  # initialize such that neither equal to theta nor prev_theta
 prev_theta3 = prev_theta[3]  # initialize to any value
 prev_theta2 = prev_theta[2]  # initialize to any value
